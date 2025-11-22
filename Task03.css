@@ -64,4 +64,23 @@ background-color: rgb(169, 216, 245);
 .players
 {
   font-size: 50px;
+
+}
+
+@media (max-width: 450px) {
+  #gamespace {
+    width: 210px;
+    height: 210px;
+  }
+
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  #restart {
+    width: 140px;
+    font-size: 16px;
+  }
 }
